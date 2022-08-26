@@ -37,11 +37,13 @@
 
 /* Agents */
 .agentsDescription{
+    font-family: Arial;
     background-color: rgb(10, 10, 28);
     width: 10%;
     max-width: fit-content;
     margin-left: 2%;
     margin-top: 10%;
+    margin-right: 5%;
     float: left;
 }
 .squad{
@@ -55,6 +57,7 @@
 
 }
 .biography{
+    font-family: valorant ;
     background-color: rgb(252, 69, 84);
     text-decoration: underline;
     font-size: x-large;
@@ -65,6 +68,8 @@
     
 }
 
+
+/*these are the agent pictures*/
 .jett{
     animation-name: move;
     animation-duration: 0.5s;

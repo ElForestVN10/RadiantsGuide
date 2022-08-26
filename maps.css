@@ -24,10 +24,12 @@
     background: rgb(252, 69, 84);
 }
 .mapsdescription{
-    background-color: rgb(10, 10, 28);
+    font-family: Arial;
+    background-color: rgba(10, 10, 28, 0.9);
     width: 10%;
     max-width: fit-content;
     margin-left: 2%;
+    margin-top: 2%;
     float: left;
     
 }
@@ -36,7 +38,8 @@
     animation-duration: 0.5s;
     width: auto;
     max-width: 1000px;
-    margin-left: 10%;
+    margin-left: 5%;
+    margin-top: 2%;
     float: left;
     float: inline-end;
     border: 5px rgb(252, 69, 84) solid;
