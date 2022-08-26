@@ -1,0 +1,43 @@
+/* this is the list for the maps */
+.mapsList{
+    animation-name: move;
+    animation-duration: 1s;
+    list-style: none;
+    padding: 0;
+    background: rgba(12, 16, 34, 0.7);
+    width: 1%;
+    display: table;
+    float: left;
+    float: inline-start;
+}   
+.mapsList li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: table;
+}
+.mapstList li{
+    display: inline-table;
+    text-align: left;
+}
+.mapsList a:hover{
+    background: rgb(252, 69, 84);
+}
+.mapsdescription{
+    background-color: rgb(10, 10, 28);
+    width: 10%;
+    max-width: fit-content;
+    margin-left: 2%;
+    float: left;
+    
+}
+.maps{
+    animation-name: move;
+    animation-duration: 0.5s;
+    width: auto;
+    max-width: 1000px;
+    margin-left: 10%;
+    float: left;
+    float: inline-end;
+    border: 5px rgb(252, 69, 84) solid;
+}

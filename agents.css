@@ -1,0 +1,200 @@
+/*this is the style for the Agents List*/
+.agentList{
+    animation-name: move;
+    animation-duration: 1s;
+    list-style: none;
+    padding: 0;
+    background: rgba(8, 12, 30, 0.7);
+    width: 1%;
+    display: table;
+    float: left;
+}   
+.agentList li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: table;
+}
+.agentList li{
+    display: inline-table;
+    text-align: left;
+}
+.agentList a:hover{
+    background: rgb(252, 69, 84);
+}
+
+@keyframes move{
+    0%{
+        transform: translateX(-10%);
+    }
+    100%{
+        transform: translatex(0);
+    }
+}
+
+
+
+
+/* Agents */
+.agentsDescription{
+    background-color: rgb(10, 10, 28);
+    width: 10%;
+    max-width: fit-content;
+    margin-left: 2%;
+    margin-top: 10%;
+    float: left;
+}
+.squad{
+    animation-name: move;
+    animation-duration: 0.5s;
+    width: auto;
+    max-width: 700pxpx;
+    margin-left: 2%;
+    float: left;
+    float: inline-end;
+
+}
+.biography{
+    background-color: rgb(252, 69, 84);
+    text-decoration: underline;
+    font-size: x-large;
+    color: rgb(10, 10, 28);
+    text-align: justify;
+    padding: 2%;
+    
+    
+}
+
+.jett{
+    animation-name: move;
+    animation-duration: 0.5s;
+    max-width: 500px;
+    width: 99%;
+    float: left;
+}
+.raze{
+    animation-name: move;
+    animation-duration: 0.5s;
+    max-width: 500px;
+    width: 99%;
+    float: left;
+}
+.breach{
+    animation-name: move;
+    animation-duration: 0.5s;
+    max-width: 500px;
+    width: 99%;
+    float: left;
+}
+.omen{
+    animation-name: move;
+    animation-duration: 0.5s;
+    max-width: 500px;
+    width: 99%;
+    float: left;
+}
+.brimstone{
+    animation-name: move;
+    animation-duration: 0.5s;
+    max-width: 500px;
+    width: 99%;
+    float: left;
+}
+.phoenix{
+    animation-name: move;
+    animation-duration: 0.5s;
+    max-width: 500px;
+    width: 99%;
+    float: left;
+}
+.sage{
+    animation-name: move;
+    animation-duration: 0.5s;
+    max-width: 500px;
+    width: 99%;
+    float: left;
+}
+.sova{
+    animation-name: move;
+    animation-duration: 0.5s;
+    max-width: 500px;
+    width: 99%;
+    float: left;
+}
+.viper{
+    animation-name: move;
+    animation-duration: 0.5s;
+    max-width: 500px;
+    width: 99%;
+    float: left;
+}
+.cypher{
+    animation-name: move;
+    animation-duration: 0.5s;
+    max-width: 500px;
+    width: 99%;
+    float: left;
+}
+.reyna{
+    animation-name: move;
+    animation-duration: 0.5s;
+    max-width: 500px;
+    width: 99%;
+    float: left;
+}
+.killjoy{
+    animation-name: move;
+    animation-duration: 0.5s;
+    max-width: 500px;
+    width: 99%;
+    float: left;
+}
+.skye{
+    animation-name: move;
+    animation-duration: 0.5s;
+    max-width: 500px;
+    width: 99%;
+    float: left;
+}
+.yoru{
+    animation-name: move;
+    animation-duration: 0.5s;
+    max-width: 500px;
+    width: 99%;
+    float: left;
+}
+.astra{
+    animation-name: move;
+    animation-duration: 0.5s;
+    max-width: 500px;
+    width: 99%;
+    float: left;
+}
+.kayo{
+    animation-name: move;
+    animation-duration: 0.5s;
+    max-width: 500px;
+    width: 99%;
+    float: left;
+}
+.chamber{
+    animation-name: move;
+    animation-duration: 0.5s;
+    max-width: 500px;
+    width: 99%;
+    float: left;
+}
+.neon{
+    animation-name: move;
+    animation-duration: 0.5s;
+    max-width: 500px;
+    width: 99%;
+    float: left;
+}
+.fade{
+    animation-name: move;
+    animation-duration: 0.5s;
+    max-width: 500px;
+    width: 99%;
+    float: left;
+}

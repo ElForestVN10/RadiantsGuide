@@ -1,0 +1,116 @@
+@font-face {
+    font-family: valorant ;
+    src: url(Fonts/Valorant\ Font.ttf) 
+}
+
+
+body{
+    font-family: valorant ;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(22, 26, 44);
+}
+h1{
+    animation-name: move;
+    animation-duration: 1s;
+}
+h2{
+    animation-name: move;
+    animation-duration: 1.5s;
+}
+p{
+    animation-name: move;
+    animation-duration: 2s;
+}
+
+/*this is the style for the header menu */
+@keyframes movedown{
+    0%{
+        transform: translateY(-20%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+.menu{
+    animation-name: movedown;
+    animation-duration: 0.5s;
+    list-style: none;
+    padding: 0;
+    background: rgb(252, 69, 84);
+    width: 99%;
+    margin: auto;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.menu li a:hover{
+    background: rgb(252, 45, 70);
+}
+
+
+/*this is the home wallpaper and the logo */
+@keyframes move{
+    0%{
+        transform: translateX(-10%);
+    }
+    100%{
+        transform: translatex(0);
+    }
+}
+#home-wallpaper{
+    animation-name: move;
+    animation-duration: 0.5s;
+    width: 99%;
+    max-width: 1000px;
+    border: 5px rgb(252, 69, 84) solid;
+
+}
+#logo{
+    width: 35px;
+}
+#logo2{
+    width: 60px;
+    float: left;
+}
+#valorantlogo{
+    width: 150px;
+    float: left;
+}
+.RadiantsGuidecom{
+    width: 200px;
+    float: left;
+}
+.menu2{
+    animation-name: movedown;
+    animation-duration: 0.5s;
+    list-style: none;
+    padding: 0;
+    background: rgb(252, 69, 84);
+    width: 99%;
+    margin: auto;
+    
+}
+.menu2 li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+.menu2 li{
+    display: inline-flex;
+    text-align: left;
+}
+.menu2 li a:hover{
+    background: rgb(252, 45, 70);
+}
+
+
+
