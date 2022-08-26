@@ -56,7 +56,7 @@ p{
 }
 
 
-/*this is the home wallpaper and the logo */
+/*this is the home page design */
 @keyframes move{
     0%{
         transform: translateX(-10%);
@@ -71,6 +71,7 @@ p{
     width: 99%;
     max-width: 1000px;
     border: 5px rgb(252, 69, 84) solid;
+    
 
 }
 #logo{
@@ -88,6 +89,24 @@ p{
     width: 200px;
     float: left;
 }
+.gamedescription{
+    font-family: Arial;
+    background-color: rgb(10, 10, 28);
+    width: auto;
+    max-width: fit-content;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-right: 5%;
+    
+}
+
+
+
+
+
+
+
+/* this is for a second menu at the bottom of the home page*/
 .menu2{
     animation-name: movedown;
     animation-duration: 0.5s;
